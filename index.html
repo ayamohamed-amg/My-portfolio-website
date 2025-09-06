@@ -1,68 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div id="container">
+        <!-- header -->
+        <header id="header">
+            <section id="home" class="hd__section">
+                <h3>Home</h3>
+            </section>
+            <section id="about" class="hd__section">
+                <h3>About</h3>
+            </section>
+            <section id="projects" class="hd__section">
+                <h3>Projects</h3>
+            </section>
+            <section id="contact" class="hd__section">
+                <h3>Contact</h3>
+            </section>
+        </header>
 
-       <header id="header">
-        <section id="home" class="hd__section">
-        <h3>Home</h3>
-       </section>
-       <section id="about" class="hd__section">
-        <h3>About</h3>
-       </section>
-       <section id="projects" class="hd__section">
-        <h3>Projects</h3>
-       </section>
-       <section id="contact" class="hd__section">
-        <h3>Contact</h3>
-       </section>
-       </header>
+        <main id="main">
+            <section id="home-section">
+                <p>HOME </p>
+                <h1>welcome to my portfolio website</h1>
+            </section>
+            <section id="about-me">
+                <h2 class="about-title">ABOUT</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h1>Hello, I'm Aya 👋</h1>
+                        <p>
+                            I'm a student at ITI with a strong interest in front-end development, <br>
+                            and creating responsive, engaging websites. <br>
+                            Explore my work and feel free to connect with me!
+                        </p>
+                    </div>
+                    <div class="about-img">
+                        <img src="images/aya.png" alt="Aya">
+                    </div>
+                </div>
+            </section>
+            <section id="projects-section">
+                <h2 class="about-title">PROJECTS</h2>
+                <div class="projects-content">
+                    <div class="project">
+                        <h3>Recipe App</h3>
+                        <video src="images/recipe app.mp4" muted
+                            onclick="this.requestFullscreen(); this.play();"></video>
+                        <p>
+                            A recipe app that allows users to search for recipes,<br>
+                            save their favorite recipes, and
+                            create their own recipes.
+                        </p>
+                        <a href="https://github.com/derptf2/iti-project" target="_blank">
+                            <button>View Project</button>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <h3>portofolio website</h3>
+                        <video src="images/portofolio.mp4" muted
+                            onclick="this.requestFullscreen(); this.play();"></video>
+                        <p>
+                            A portfolio website that showcases my work and skills as a developer. <br>
+                            It includes sections for my projects,information about me, and contact information.
+                        </p>
+                        <a href="https://github.com/ayamohamed-amg/My-portfolio-website" target="_blank">
+                            <button>View Project</button>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <h3>Library-app</h3>
+                        <video src="images/library app.mp4" muted
+                            onclick="this.requestFullscreen(); this.play();"></video>
+                        <p>
+                            A library app that allows users to search for books, <br>
+                            add books to their library, and remove books from their library and more .
+                        </p>
+                        <a href="https://github.com/ayamohamed-amg/library" target="_blank">
+                            <button>View Project</button>
+                        </a>
+                    </div>
+                </div>
 
-       <main id="main">
-       <section id="home-section">
-        <p>HOME </p>
-        <h1>welcome to my portfolio website</h1>
-        </section>
-        <section id="about-me">
-    <h2 class="about-title">ABOUT</h2>
-    <div class="about-content">
-        <div class="about-text">
-            <h1>Hello, I'm Aya 👋</h1>
-            <p>
-                I'm a web developer with a strong interest in front-end development, <br>
-                and creating responsive, engaging websites. <br>
-                Explore my work and feel free to connect with me!
-            </p>
-        </div>
-        <div class="about-img">
-            <img src="images/aya.png" alt="Aya">
-        </div>
-    </div>
-</section>
+            </section>
+            <section id="contact-section">
+                <div class="contact-box">
+                    <div class="contact-text">
+                        <h1>Contact Me</h1>
+                        <p>
+                            If you'd like to get in touch, whether for collaboration, <br>
+                            questions, or just to say hello, feel free to reach out. <br>
+                            I'd love to hear from you!
+                        </p>
+                    </div>
+                </div>
+            </section>
 
-       </main>
 
-       <footer id="footer">
-        <section id="creater-section">
-            <p>&copy; Made by Aya ❤ </p>
-        </section>
-        <section id="linkedin">
-            <a href="https://www.linkedin.com/in/aya-mohammad-005bb3336/" target="_blank">
-            <img src="images/linkedin.png" alt="LinkedIn">
-        </a> 
-    </section>
-    <section id="github">
-        <a href="https://github.com/ayamohamed-amg" target="_blank">
-            <img src="images/github.png" alt="GitHub">
-        </a>
-    </section>
-       </footer>
+        </main>
+        <!-- footer -->
+        <footer id="footer">
+            <section id="creater-section">
+                <p>&copy; Made by Aya ❤ </p>
+            </section>
+            <section id="linkedin">
+                <a href="https://www.linkedin.com/in/aya-mohammad-005bb3336/" target="_blank">
+                    <img src="images/linkedin.png" alt="LinkedIn">
+                </a>
+            </section>
+            <section id="github">
+                <a href="https://github.com/ayamohamed-amg" target="_blank">
+                    <img src="images/github.png" alt="GitHub">
+                </a>
+            </section>
+        </footer>
     </div>
 </body>
+
 </html>
