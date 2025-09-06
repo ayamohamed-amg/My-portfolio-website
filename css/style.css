@@ -137,6 +137,14 @@
     padding: 20vh 8vw;
     background-color: hsla(56, 47%, 76%, 0.792);
 }
+.projects-title {
+    text-align: center;
+    font-size: 5rem;
+    font-weight: bold;
+    color: #47401a;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
 .projects-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -200,10 +208,9 @@ video:fullscreen {
 
 .about-title {
     text-align: center;
-    font-size: 2rem;
+    font-size: 5rem;
     color: #5c4a2d;
     margin-bottom: 2rem;
-    font-family: 'Segoe UI', sans-serif;
 }
 
 .contact-box {
