@@ -18,7 +18,7 @@
 #header {
     width: 100%;
     height: 12vh;
-    background-color: #766626; 
+    background-color: #766626;
 
     display: flex;
     justify-content: center;
@@ -218,9 +218,10 @@ video:fullscreen {
 
 /*--------------- Contact ---------------*/
 .contact-box {
-    background: url("../images/contact me.png") no-repeat center/contain;;
+    background: url("../images/contact me.png") no-repeat center/contain;
+    ;
     width: 100vw;
-    
+
     height: 85vh;
     display: flex;
     align-items: center;
@@ -349,26 +350,27 @@ video:fullscreen {
     }
 
     .contact-box {
-        flex-direction: column;         
-        justify-content: center;        
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        background-size: cover;       /* الصورة تصغر وتظهر كاملة */
+        background-size: cover;
+        /* الصورة تصغر وتظهر كاملة */
         background-position: center;
         background-repeat: no-repeat;
         width: 100%;
         height: auto;
         padding: 4vh 5vw;
-        gap: 3vh;                       
+        gap: 3vh;
     }
 
     .contact-text {
         width: 100%;
-        text-align: center;             
+        text-align: center;
         margin-bottom: 2vh;
     }
 
     .contact-buttons {
-        width: 80%;                     
+        width: 80%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -376,10 +378,11 @@ video:fullscreen {
     }
 
     .contact-buttons button {
-        width: 100%;                    /* كل الأزرار نفس العرض */
+        width: 100%;
+        /* كل الأزرار نفس العرض */
         text-align: center;
         font-size: 1.2rem;
-                    
+
     }
 }
 
